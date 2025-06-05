@@ -14,7 +14,7 @@ import pandas as pd
 
 def ejecutar_scrapper():
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf8')
-    path_to_chromedriver = r'C:\Users\Kike-pc\Downloads\chromedriver-win64\chromedriver.exe'
+    path_to_chromedriver = r'ruta de chromedriver.exe'
     service = Service(executable_path=path_to_chromedriver)
     
     driver = webdriver.Chrome(service=service)
